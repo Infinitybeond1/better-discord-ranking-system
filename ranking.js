@@ -141,7 +141,7 @@ module.exports = function (client) {
                     break;
                     /////////////////////////////////
                 default:
-                    message.reply(`UNKNOWN COMMAND! Try: \`${prefix}levelinghelp\``)
+                    message.reply(` `)
                     break;
             }
             return;
@@ -155,7 +155,7 @@ module.exports = function (client) {
         function anti_double_messages() {
             const oldmessage = client.points.get(key, `oldmessage`);
             if (oldmessage.toLowerCase() === message.content.toLowerCase().replace(/\s+/g, '')) {
-                return console.log("DOUPLICATED MESSAGE, no ranking points sorry!");
+                return console.log("DUPLICATED MESSAGE, no ranking points sorry!");
             }
             client.points.set(key, message.content.toLowerCase().replace(/\s+/g, ''), `oldmessage`); //setting the new old message
         }
