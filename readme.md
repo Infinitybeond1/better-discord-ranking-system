@@ -16,15 +16,17 @@ This repo will show you how to host a discord levelling bot on railway, and keep
   <tr>
     <th>Step Number</th>
     <th>What to do</th>
+    <th>Optional or not</th>
   </tr>
   <tr>
     <td>1</td>
     <td>Click on the purple `Deploy to railway below` button</td>
+    <td>REQUIRED</td>
   </tr>
   <tr>
     <td>2</td>
-    <td></td>
-    <td>Mexico</td>
+    <td>In the box circled in white, you can select a Github account or organization to push the repository to</td>
+    <td>OPTIONAL</td>
   </tr>
 </table>
 
