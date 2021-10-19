@@ -20,7 +20,7 @@ This repo will show you how to host a discord levelling bot on railway, and keep
   </tr>
   <tr>
     <td>1</td>
-    <td>Click on the purple `Deploy to railway below` button</td>
+    <td>Click on the purple 'Deploy to railway below' button</td>
     <td>REQUIRED</td>
   </tr>
   <tr>
